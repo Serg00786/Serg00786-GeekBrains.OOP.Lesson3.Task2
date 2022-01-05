@@ -10,6 +10,9 @@ namespace GeekBrains.OOP.Lesson3.Task2
     {
         static void Main(string[] args)
         {
+            IStringWorker stringWorker = new StringWorker();
+            Console.WriteLine(stringWorker.RevertString("string"));
+            Console.ReadLine();
         }
     }
 }
